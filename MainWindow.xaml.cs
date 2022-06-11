@@ -25,6 +25,8 @@ namespace IncursionTimer
         public DispatcherTimer TimerFourG { get; set; }
         public DispatcherTimer TimerFiveG { get; set; }
 
+        public const int SpawnSeconds = 435;
+
 
         public MainWindow()
         {
@@ -40,7 +42,7 @@ namespace IncursionTimer
 
         private void SiteOne_Click(object sender, RoutedEventArgs e)
         {
-            TimerOneH = TimeSpan.FromSeconds(420);
+            TimerOneH = TimeSpan.FromSeconds(SpawnSeconds);
             TimerOne.Background = Brushes.Firebrick;
             TimerOneG = new DispatcherTimer(new TimeSpan(0, 0, 1), DispatcherPriority.Normal, delegate
             {
@@ -57,7 +59,7 @@ namespace IncursionTimer
 
         private void SiteTwo_Click(object sender, RoutedEventArgs e)
         {
-            TimerTwoH = TimeSpan.FromSeconds(420);
+            TimerTwoH = TimeSpan.FromSeconds(SpawnSeconds);
             TimerTwo.Background = Brushes.Firebrick;
             TimerTwoG = new DispatcherTimer(new TimeSpan(0, 0, 1), DispatcherPriority.Normal, delegate
             {
@@ -74,7 +76,7 @@ namespace IncursionTimer
 
         private void SiteThree_Click(object sender, RoutedEventArgs e)
         {
-            TimerThreeH = TimeSpan.FromSeconds(420);
+            TimerThreeH = TimeSpan.FromSeconds(SpawnSeconds);
             TimerThree.Background = Brushes.Firebrick;
             TimerThreeG = new DispatcherTimer(new TimeSpan(0, 0, 1), DispatcherPriority.Normal, delegate
             {
@@ -91,7 +93,7 @@ namespace IncursionTimer
 
         private void SiteFour_Click(object sender, RoutedEventArgs e)
         {
-            TimerFourH = TimeSpan.FromSeconds(420);
+            TimerFourH = TimeSpan.FromSeconds(SpawnSeconds);
             TimerFour.Background = Brushes.Firebrick;
             TimerFourG = new DispatcherTimer(new TimeSpan(0, 0, 1), DispatcherPriority.Normal, delegate
             {
@@ -108,7 +110,7 @@ namespace IncursionTimer
 
         private void SiteFive_Click(object sender, RoutedEventArgs e)
         {
-            TimerFiveH = TimeSpan.FromSeconds(420);
+            TimerFiveH = TimeSpan.FromSeconds(SpawnSeconds);
             TimerFive.Background = Brushes.Firebrick;
             TimerFiveG = new DispatcherTimer(new TimeSpan(0, 0, 1), DispatcherPriority.Normal, delegate
             {

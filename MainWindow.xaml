@@ -14,7 +14,6 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
                         <ColumnDefinition/>
-                        <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
                         <RowDefinition/>
@@ -23,23 +22,19 @@
                         <RowDefinition/>
                         <RowDefinition/>
                     </Grid.RowDefinitions>
-                    <TextBlock Text="Tag" Grid.Row="0" Grid.Column="0" TextAlignment="Center" Background="BlanchedAlmond" Margin="1"/>
-                    <TextBlock Text="Tag" Grid.Row="1" Grid.Column="0" TextAlignment="Center" Background="BlanchedAlmond" Margin="1"/>
-                    <TextBlock Text="Tag" Grid.Row="2" Grid.Column="0" TextAlignment="Center" Background="BlanchedAlmond" Margin="1"/>
-                    <TextBlock Text="Tag" Grid.Row="3" Grid.Column="0" TextAlignment="Center" Background="BlanchedAlmond" Margin="1"/>
-                    <TextBlock Text="Tag" Grid.Row="4" Grid.Column="0" TextAlignment="Center" Background="BlanchedAlmond" Margin="1"/>
 
-                    <Button x:Name="SiteOne" Content="Site One" Grid.Row="0" Grid.Column="1" Margin="1" Click="SiteOne_Click"/>
-                    <Button x:Name="SiteTwo" Content="Site Two" Grid.Row="1" Grid.Column="1" Margin="1" Click="SiteTwo_Click"/>
-                    <Button x:Name="SiteThree" Content="Site Three" Grid.Row="2" Grid.Column="1" Margin="1" Click="SiteThree_Click"/>
-                    <Button x:Name="SiteFour" Content="Site Four" Grid.Row="3" Grid.Column="1" Margin="1" Click="SiteFour_Click"/>
-                    <Button x:Name="SiteFive" Content="Site Five" Grid.Row="4" Grid.Column="1" Margin="1" Click="SiteFive_Click"/>
 
-                    <TextBlock Text="00:00:00" Grid.Row="0" Grid.Column="2" TextAlignment="Center" Background="Green" x:Name="TimerOne" Margin="1"/>
-                    <TextBlock Text="00:00:00" Grid.Row="1" Grid.Column="2" TextAlignment="Center" Background="Green" x:Name="TimerTwo" Margin="1"/>
-                    <TextBlock Text="00:00:00" Grid.Row="2" Grid.Column="2" TextAlignment="Center" Background="Green" x:Name="TimerThree" Margin="1"/>
-                    <TextBlock Text="00:00:00" Grid.Row="3" Grid.Column="2" TextAlignment="Center" Background="Green" x:Name="TimerFour" Margin="1"/>
-                    <TextBlock Text="00:00:00" Grid.Row="4" Grid.Column="2" TextAlignment="Center" Background="Green" x:Name="TimerFive" Margin="1"/>
+                    <Button x:Name="SiteOne" Content="Site One" Grid.Row="0" Grid.Column="0" Margin="1" Click="SiteOne_Click"/>
+                    <Button x:Name="SiteTwo" Content="Site Two" Grid.Row="1" Grid.Column="0" Margin="1" Click="SiteTwo_Click"/>
+                    <Button x:Name="SiteThree" Content="Site Three" Grid.Row="2" Grid.Column="0" Margin="1" Click="SiteThree_Click"/>
+                    <Button x:Name="SiteFour" Content="Site Four" Grid.Row="3" Grid.Column="0" Margin="1" Click="SiteFour_Click"/>
+                    <Button x:Name="SiteFive" Content="Site Five" Grid.Row="4" Grid.Column="0" Margin="1" Click="SiteFive_Click"/>
+
+                    <TextBlock Text="00:00:00" Grid.Row="0" Grid.Column="1" TextAlignment="Center" Background="Green" x:Name="TimerOne" Margin="1"/>
+                    <TextBlock Text="00:00:00" Grid.Row="1" Grid.Column="1" TextAlignment="Center" Background="Green" x:Name="TimerTwo" Margin="1"/>
+                    <TextBlock Text="00:00:00" Grid.Row="2" Grid.Column="1" TextAlignment="Center" Background="Green" x:Name="TimerThree" Margin="1"/>
+                    <TextBlock Text="00:00:00" Grid.Row="3" Grid.Column="1" TextAlignment="Center" Background="Green" x:Name="TimerFour" Margin="1"/>
+                    <TextBlock Text="00:00:00" Grid.Row="4" Grid.Column="1" TextAlignment="Center" Background="Green" x:Name="TimerFive" Margin="1"/>
 
                 </Grid>
 
